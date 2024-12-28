@@ -553,3 +553,179 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+.m-auto {
+  margin: auto;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[262\] {
+  width: 262;
+}
+
+.w-\[262px\] {
+  width: 262px;
+}
+
+.max-w-\[1200px\] {
+  max-width: 1200px;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-\[\] {
+  gap: ;
+}
+
+.gap-\[-\[\]\] {
+  gap: -[];
+}
+
+.gap-\[20px\] {
+  gap: 20px;
+}
+
+.gap-\[100px\] {
+  gap: 100px;
+}
+
+.gap-\[70px\] {
+  gap: 70px;
+}
+
+.gap-\[50px\] {
+  gap: 50px;
+}
+
+.gap-\[10px\] {
+  gap: 10px;
+}
+
+.gap-\[0px\] {
+  gap: 0px;
+}
+
+.gap-\[40px\] {
+  gap: 40px;
+}
+
+.space-x-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.border {
+  border-width: 1px;
+}
+
+.bg-\[\#F7F7F7\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
+}
+
+.p-\[30px\] {
+  padding: 30px;
+}
+
+.p-\[0px\] {
+  padding: 0px;
+}
+
+.p-\[20px\] {
+  padding: 20px;
+}
+
+.pt-\[\] {
+  padding-top: ;
+}
+
+.pt-\[20px\] {
+  padding-top: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-\[\] {
+  font-family: ;
+}
+
+.font-\[\#CDB494\] {
+  font-family: #CDB494;
+}
+
+.font-\[Gilroy\] {
+  font-family: Gilroy;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.text-\[\#CDB494\] {
+  --tw-text-opacity: 1;
+  color: rgb(205 180 148 / var(--tw-text-opacity, 1));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
