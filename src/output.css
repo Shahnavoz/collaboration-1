@@ -598,6 +598,10 @@ video {
   display: inline-block;
 }
 
+.\!inline-block {
+  display: inline-block !important;
+}
+
 .flex {
   display: flex;
 }
@@ -640,6 +644,14 @@ video {
 
 .w-\[608px\] {
   width: 608px;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[278px\] {
+  width: 278px;
 }
 
 .max-w-\[1200px\] {
@@ -698,6 +710,10 @@ video {
   gap: 50px;
 }
 
+.gap-\[\] {
+  gap: ;
+}
+
 .rounded-\[50\%\] {
   border-radius: 50%;
 }
@@ -706,9 +722,41 @@ video {
   border-width: 1px;
 }
 
+.border-\[2px\] {
+  border-width: 2px;
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[5\] {
+  border-color: 5;
+}
+
+.border-gray-300 {
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity, 1));
+}
+
+.border-gray-100 {
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity, 1));
+}
+
+.border-\[bold\] {
+  border-color: bold;
+}
+
+.border-x-black {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+  border-right-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#000000\] {
@@ -726,6 +774,20 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
 }
 
+.bg-\[\#FF543D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 84 61 / var(--tw-bg-opacity, 1));
+}
+
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
+}
+
 .p-\[10px\] {
   padding: 10px;
 }
@@ -740,6 +802,10 @@ video {
 
 .p-\[50px\] {
   padding: 50px;
+}
+
+.p-\[\] {
+  padding: ;
 }
 
 .px-\[25px\] {
@@ -777,6 +843,16 @@ video {
   padding-right: 40px;
 }
 
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.py-\[8px\] {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .pb-\[10px\] {
   padding-bottom: 10px;
 }
@@ -787,6 +863,14 @@ video {
 
 .text-center {
   text-align: center;
+}
+
+.\!text-center {
+  text-align: center !important;
+}
+
+.\!text-start {
+  text-align: start !important;
 }
 
 .font-\[Gilroy\] {
