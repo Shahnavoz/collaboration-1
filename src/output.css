@@ -558,24 +558,20 @@ video {
   margin: auto;
 }
 
-.mb-\[\] {
-  margin-bottom: ;
-}
-
 .mb-\[30px\] {
   margin-bottom: 30px;
+}
+
+.mt-\[80px\] {
+  margin-top: 80px;
 }
 
 .flex {
   display: flex;
 }
 
-.w-\[\] {
-  width: ;
-}
-
-.w-\[262\] {
-  width: 262;
+.w-\[250px\] {
+  width: 250px;
 }
 
 .w-\[262px\] {
@@ -584,6 +580,14 @@ video {
 
 .max-w-\[1200px\] {
   max-width: 1200px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-start {
+  align-items: flex-start;
 }
 
 .items-center {
@@ -598,50 +602,33 @@ video {
   justify-content: space-between;
 }
 
-.gap-\[\] {
-  gap: ;
-}
-
-.gap-\[-\[\]\] {
-  gap: -[];
+.gap-\[10px\] {
+  gap: 10px;
 }
 
 .gap-\[20px\] {
   gap: 20px;
 }
 
-.gap-\[100px\] {
-  gap: 100px;
-}
-
-.gap-\[70px\] {
-  gap: 70px;
-}
-
-.gap-\[50px\] {
-  gap: 50px;
-}
-
-.gap-\[10px\] {
-  gap: 10px;
-}
-
-.gap-\[0px\] {
-  gap: 0px;
+.gap-\[30px\] {
+  gap: 30px;
 }
 
 .gap-\[40px\] {
   gap: 40px;
 }
 
-.space-x-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.25rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.25rem * calc(1 - var(--tw-space-x-reverse)));
+.gap-\[100px\] {
+  gap: 100px;
 }
 
 .border {
   border-width: 1px;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#F7F7F7\] {
@@ -649,20 +636,12 @@ video {
   background-color: rgb(247 247 247 / var(--tw-bg-opacity, 1));
 }
 
-.p-\[30px\] {
-  padding: 30px;
-}
-
-.p-\[0px\] {
-  padding: 0px;
+.p-\[15px\] {
+  padding: 15px;
 }
 
 .p-\[20px\] {
   padding: 20px;
-}
-
-.pt-\[\] {
-  padding-top: ;
 }
 
 .pt-\[20px\] {
@@ -673,48 +652,36 @@ video {
   text-align: center;
 }
 
-.font-\[\] {
-  font-family: ;
-}
-
-.font-\[\#CDB494\] {
-  font-family: #CDB494;
-}
-
 .font-\[Gilroy\] {
   font-family: Gilroy;
-}
-
-.text-\[40px\] {
-  font-size: 40px;
-}
-
-.text-\[24px\] {
-  font-size: 24px;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
 }
 
 .text-\[14px\] {
   font-size: 14px;
 }
 
-.font-medium {
-  font-weight: 500;
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[40px\] {
+  font-size: 40px;
+}
+
+.text-\[42px\] {
+  font-size: 42px;
 }
 
 .font-bold {
   font-weight: 700;
 }
 
-.uppercase {
-  text-transform: uppercase;
+.font-medium {
+  font-weight: 500;
 }
 
-.leading-3 {
-  line-height: .75rem;
+.uppercase {
+  text-transform: uppercase;
 }
 
 .leading-\[30px\] {
